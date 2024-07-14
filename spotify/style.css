@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Varela+Round&display=swap');
+body{
+    background-color:beige;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: ghostwhite;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 65px;
+    padding: 0 10px;
+}
+
+.brand{
+    display: flex;
+    align-items: center ;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color:black ;
+    color: white;
+    font-family: 'varela round ', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 8px;
+    background-image: url(bg1.jpg);
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+
+}
+.icons i{
+    cursor: pointer;
+    padding: 0 8px;
+
+}
+
+
+#myProgressbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}       
+
+.songItemcontainer{
+    margin: 25px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    width: 150%;
+    color: white;
+    margin: 17px 0;
+    border-radius: 23px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 11px;
+    height: 48px;
+    border-radius: 30px;
+
+}
+
+.timestamp{
+    margin-left:50px;
+}
+
+.HoldOn{
+    padding: 14px 0;
+}
+
+.timestamp i{
+    padding-left: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'varela round ', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
